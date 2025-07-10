@@ -1,0 +1,39 @@
+# Ignore Python virtual environments
+.venv/
+env/
+venv/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# SQL temp or backup files
+*.bak
+*.tmp
+*.log
+*.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code/JetBrains IDE settings
+.vscode/
+.idea/
+
+# Ignore ZIP or RAR archives (if uploading code only)
+*.zip
+*.rar
+
+# Ignore data exports if generated (optional)
+*.xlsx
+*.xls
+
+# Ignore credentials or secrets if ever added (protect your data)
+secrets.env
+.env
